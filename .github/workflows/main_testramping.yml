@@ -58,4 +58,4 @@ jobs:
           app-name: 'testRamping'
           slot-name: 'Production'
           package: './release.zip'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_7090142BC37B41E38EEA55BBC717C42B }}
