@@ -8,7 +8,7 @@ export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'server',
   server: {
-    port: process.env.PORT || 3000, // 使用 Azure 提供的端口
+    port: 8080, // 使用 Azure 提供的端口
     host: '0.0.0.0', // 必须监听所有网络接口
   },
   // Global page headers: https://go.nuxtjs.dev/config-head
