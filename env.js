@@ -1,6 +1,6 @@
 export default {
   dev: {
-    MODE: 'development',
+    MODE: 'dev',
     BLOG_BASE_URL: 'https://strapi-dev.rampingup.com'
   },
   staging: {
@@ -8,7 +8,7 @@ export default {
     BLOG_BASE_URL: 'https://strapi-dev.rampingup.com'
   },
   prod: {
-    MODE: 'production',
+    MODE: 'prod',
     BLOG_BASE_URL: 'https://strapi.runworld.com.cn'
   }
 }
