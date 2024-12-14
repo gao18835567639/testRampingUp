@@ -7,9 +7,6 @@ import fetch from 'node-fetch';
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'server',
-  server: {
-    port: process.env.PORT || 8080, // 使用 Azure 提供的端口
-  },
   // Global page headers: https://go.nuxtjs.dev/config-head
   head() {
     return {
