@@ -10,7 +10,7 @@ export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head() {
     return {
-      title: 'Ramping Up: Remote Hiring and Management Solution',
+      title: 'Ramping Up: Remote Hiring and Management Solution1',
       htmlAttrs: {
         lang: 'en'
       },
