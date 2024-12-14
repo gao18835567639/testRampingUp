@@ -18,8 +18,13 @@ jobs:
         with:
           node-version: '18.x'
 
+      - name: Install dependencies and build
+        run: |
+          npm install
+          npm run build
+
       - name: Zip artifact for deployment
-        run: zip -r release.zip * -x "node_modules/*" ".git/*" ".github/*" ".vscode/*" ".nuxt/*"
+        run: zip -r release.zip package.json static nuxt.config.js .nuxt
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v4
