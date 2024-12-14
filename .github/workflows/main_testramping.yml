@@ -24,7 +24,7 @@ jobs:
           npm run build
 
       - name: Zip artifact for deployment
-        run: zip -r release.zip .nuxt package.json node_modules static nuxt.config.js
+        run: zip -r release.zip .nuxt package.json static nuxt.config.js
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v4
